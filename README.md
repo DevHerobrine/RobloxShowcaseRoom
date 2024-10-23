@@ -13,11 +13,12 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 * [Create a Camera](#How-to-create-camera)
   * [Methods 1](#Methods-1)
   * [Methods 2](#Methods-2)
-* [Create a Animation](##Create-a-animation)
+* [Create a Animation](#Create-a-animation)
   * [Startings](#Startings)
   * [The-Scripts](#The-scripts)
-  * [Other details](#Other-details)
-   
+  * [Other Details](#Animation-Other-details)
+* [Map Manager](#Map-Manager)
+  * [How import your Map?](#How-import-your-Map)
 
 ## Requirements
 - Have bough "THE CAR SHOWROOM" in Nova Tech Store
@@ -26,6 +27,7 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 - Camera Preset
 - Animation Preset
 - Car Manager
+- Map Manager
 - DataStore
 
 ## Important
@@ -61,6 +63,7 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 - Get your car in the game.
 - Set the car's position to (0, 0, 0) and raise it so the wheels aren't embedded in the ground.
 - Put the car in game.ReplicatedStorage.Cars
+- You can also delete script in the car (Not required but recommended)
 - Do this for all your car and its done!
 
 ## How to create a Camera
@@ -90,6 +93,15 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 ### The scripts:
 Get the template I placed in ServerStorage named "TemplateAnimation," then follow the instructions from lines 3 to 9.
 
-### Other details
+### Animation Other Details
 You can create your own custom animation using your own methods, but just make sure that the module is placed in `game.ReplicatedStorage.Module.AnimationManager.Animation`.
+
+## Map Manager
+### How import your Map?
+- First if you don't have already it get the plugins
+- For get it go in ServerStorage save the "Plugin" as a local plugin,
+- Next go on the maps your want imports, and press copy Ligthings,
+- Place the folder that just created named "LightingSettings", in the MapsFolder like that: ![image](https://github.com/user-attachments/assets/b320bafc-40aa-49c3-9cf8-fe453d294926)
+- Copy your maps, paste it in ReplicatedStorage.Maps
+- Remember that the cars are at position 0,0,0 so check if your maps are positioned correctly
 
