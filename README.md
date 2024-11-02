@@ -40,9 +40,9 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 ### Properties Formats
 |Name|Format|Default|Additional|
 |:-|:-|:-|:-|
-|Speed|A number|0.05|(Only for the View360 animation.)|
-|Time|A number|1|(Time of the animation.)|
-|Delay|A number|1|(Delay between reach repeat)|
+|Speed|A number|0.2|(Only for the View360 animation.)|
+|Time|A number|3|(Time of the animation.)|
+|Delay|A number|0|(Delay between reach repeat)|
 |Camera Height|A number|5|Camera Height is for adjusting the view when swiping over big or small cars.|
 |Camera Front-Back|A number|5|Camera Front-Back is for adjusting the view when swiping over big or small cars.|
 |Camera Right-Left|A number|5|Camera Right-Left is for adjusting the view when swiping over big or small cars.|
