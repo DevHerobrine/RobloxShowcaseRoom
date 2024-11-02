@@ -16,7 +16,6 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 * [Create a Animation](#Create-a-animation)
   * [Startings](#Startings)
   * [The-Scripts](#The-scripts)
-  * [Other Details](#Animation-Other-details)
 * [Map Manager](#Map-Manager)
   * [How import your Map?](#How-import-your-Map)
 
@@ -87,14 +86,15 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 ## Create a Animation
 ### Startings:
 - Create a folder with the animation name in (CamFolder.Animated[YourAnimationName])
-- Next, create "Waypoints" using the same method as "How to create a camera" (Waypoints are the points where the camera will pass).
+- Before creating waypoints, make sure you know what you want. You have two options:
+  1. The camera will pass through all waypoints.
+  2. The camera will move from waypoint 1 to waypoint 2, then from waypoint 3 to waypoint 4.
+- Next, create "Waypoints" using the same method as "How to create a camera".
 - Name these waypoints (1, 2, 3, 4, 5, etc.) and place them in the folder you just created (They are in CamFolder with name "New Camera").
 
 ### The scripts:
-Get the template I placed in ServerStorage named "TemplateAnimation," then follow the instructions from lines 3 to 9.
-
-### Animation Other Details
-You can create your own custom animation using your own methods, but just make sure that the module is placed in `game.ReplicatedStorage.Module.AnimationManager.Animation`.
+If you use option 1, then in ServerStorage.TemplateAnimation, choose TemplateAnimation1. If you use option 2, choose TemplateAnimation2. 
+Next, follow the instructions in the module.
 
 ## Map Manager
 ### How import your Map?
