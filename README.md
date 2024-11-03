@@ -62,7 +62,6 @@ THE CAR SHOWROOM is a space where you can showcase your cars, featuring preset c
 - Get your car in the game.
 - Set the car's position to (0, 0, 0) and raise it so the wheels aren't embedded in the ground.
 - Put the car in game.ReplicatedStorage.Cars
-- You can also delete script in the car (Not required but recommended)
 - Do this for all your car and its done!
 
 ## How to create a Camera
